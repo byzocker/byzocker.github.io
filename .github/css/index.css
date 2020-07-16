@@ -1,0 +1,67 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    --gradientcolor1: #132980;
+    --gradientcolor2: #1c254a;
+}
+/*:root{
+    
+}*/
+body
+{
+    background-color: black;
+    background-image: url(/backgrounds/background_image.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.header
+{
+    align-items: center;
+}
+.navitems .nav-items /* Ganzer Header  */
+{
+    text-align: center;
+    margin-left: 1rem;
+    padding-left: 1rem;
+    left: 1rem;
+    right: 9rem;
+}
+.about, .ytlink, .tweety
+{
+    text-align: center;
+    text-decoration: none;
+    font-style: initial;
+    font-size: 2rem;
+    color: white;
+    padding-left: .25em;
+    padding-right: .25em;
+    margin: 0;
+    border: 1px 1px 1px 1px white;
+    /*background-color: #1c254a;
+    background-image: linear-gradient(
+        var(--gradientcolor1)
+        var(--gradientcolor2)
+    );*/
+}
+.logo
+{
+    display: flex;
+    align-self: flex-start;
+}
+.nav-items
+{
+    text-align: center;
+    padding: 1rem;
+    /*background: black;*/
+}
+.about
+{   
+    margin-left: 1rem;
+}
+.ytlink
+{
+    margin-left: 1rem;
+}
+.tweety
+{
+    margin-left: 1rem;
+}
