@@ -1,5 +1,6 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
     --gradientcolor1: #132980;
     --gradientcolor2: #1c254a;
     --color1: ;
@@ -13,9 +14,11 @@
 body
 {
     /*background-color: black;*/
-    background-image: url(/backgrounds/background_image.jpg);
+    background-image: url(/backgrounds/background_image_.jpg);
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
+    background-color: black;
+    background-attachment: local;
 }
 .header
 {
@@ -23,7 +26,7 @@ body
 }
 .navitems .nav-items /* Ganzer Header  */
 {
-    text-align: center;
+    text-align: end;
     margin-left: 1rem;
     padding-left: 1rem;
     left: 1rem;
@@ -31,10 +34,10 @@ body
 }
 .about-text, .ytlink, .tweety
 {
-    text-align: center;
-    text-decoration: none;
+    text-align: end;
+    text-decoration: transparent;
     font-style: initial;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
     padding-left: .25em;
     padding-right: .25em;
@@ -53,9 +56,12 @@ body
 }
 .nav-items
 {
-    text-align: center;
+    text-align: end;
     padding: 1rem;
     /*background: black;*/
+    border-bottom: thick;
+    border-bottom-width: 5rem;
+    border-color: white;
 }
 .about
 {   
@@ -69,15 +75,43 @@ body
 {
     margin-left: 1rem;
 }
-.h4
+.welcum
 {
-
+    color: white;
+    text-align: center;
+    font-size: 2.25rem;
 }
+/*
+    Wenn du dashier gefunden hast, bitte melde dich bei ByZocker#5430 auf Discord,
+    um deine Belohnung abzuholen!
+*/
 .about
 {
     text-align: end;
     color: white;
     /*margin-left: 40rem;*/
-    margin-top: 10rem;
+    margin-top: 7rem;
+    margin-right: 2%;
     font-size: 1.25rem;
+    text-shadow: 1px 1px 1px;
+}
+.about2
+{
+    text-shadow: none;
+}
+.lookm8
+{
+    font-size: larger;
+    text-align: center;
+    color: red;
+    text-shadow: 1px 1px 1px;
+}
+.foot
+{
+    text-align: center;
+    opacity: 50%;
+}
+.cprght
+{
+    text-align: center;
 }
