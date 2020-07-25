@@ -24,6 +24,10 @@ body
 {
     align-items: center;
 }
+.navitems
+{
+    border: 1px 1px 1px 1px white;
+}
 .navitems .nav-items /* Ganzer Header  */
 {
     text-align: end;
@@ -107,7 +111,14 @@ body
     text-align: center;
     opacity: 45%;
 }
+.medialinks
+{
+    text-align: right;
+    padding-right: 5rem;
+}
 .cprght
 {
     text-align: center;
+    scrollbar-color: black;
+    
 }
