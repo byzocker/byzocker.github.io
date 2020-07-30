@@ -113,12 +113,17 @@ body
 }
 .medialinks
 {
-    text-align: right;
-    padding-right: 2rem;
+    text-align: center;
+    opacity: 55%;
+}
+.dc-1
+{
+    text-decoration: none;
 }
 .cprght
 {
     text-align: center;
     scrollbar-color: black;
-
+    scroll-behavior: smooth;
+    text-overflow: clip;
 }
