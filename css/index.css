@@ -1,23 +1,22 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: var(--text);
+}
+:root{
     --gradientcolor1: #132980;
     --gradientcolor2: #1c254a;
-    --color1: ;
-    --color2: ;
-    --color3: ;
-    --color4: ;
+    --text: black;
+    --background: white;
+    /*--color3: ;
+    --color4: ;*/
 }
-/*:root{
-    
-}*/
 body
 {
     /*background-color: black;*/
-    background-image: url(/backgrounds/background_image.jpg);
+    background-image: url(/backgrounds/test.jpg);
     background-attachment: fixed;
-    background-repeat: repeat;
-    background-color: black;
+    background-repeat: no-repeat;
+    background-color: var(--background);
     background-attachment: local;
 }
 .header
@@ -42,7 +41,7 @@ body
     text-decoration: transparent;
     font-style: initial;
     font-size: 1.5rem;
-    color: white;
+    color: var(--text);
     padding-left: .25em;
     padding-right: .25em;
     margin: 0;
@@ -81,14 +80,14 @@ body
 }
 .welcum
 {
-    color: white;
+    color: var(--text);
     text-align: center;
     font-size: 2.25rem;
 }
 .about
 {
     text-align: end;
-    color: white;
+    color: var(--text);
     /*margin-left: 40rem;*/
     margin-top: 7rem;
     margin-right: 2%;
