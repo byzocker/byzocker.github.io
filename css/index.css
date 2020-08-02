@@ -7,13 +7,13 @@
     --gradientcolor2: #1c254a;
     --text: black;
     --background: white;
-    /*--color3: ;
-    --color4: ;*/
+    --header: #919191;
+    --welcum: white;
 }
 body
 {
     /*background-color: black;*/
-    background-image: url(/backgrounds/test.jpg);
+    background-image: url(/backgrounds/test2.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: var(--background);
@@ -22,6 +22,7 @@ body
 .header
 {
     align-items: center;
+    color: var(--header)
 }
 .navitems
 {
