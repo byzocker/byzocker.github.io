@@ -1,0 +1,47 @@
+/*:root
+{
+
+}*/
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: larger;
+}
+/*body
+{
+
+}*/
+.text_de
+{
+    padding-bottom: 3%;
+}
+/*.text_en
+{
+
+}*/
+.german
+{
+    padding-bottom: 2%;
+}
+.english
+{
+    padding-top: 3%;
+}
+.link_de
+{
+    color: yellow;
+    text-decoration: none;
+    box-shadow: 0px 0px 0px 5px red;
+    border-radius: 5px;
+    background: black;
+}
+.link_en
+{
+    color: white;
+    text-shadow: 2px 2px 2px 5px 10px black;
+    text-decoration: none;
+    box-shadow: 0px 0px 0px 5px blue;
+    border-radius: 5px;
+    background: red;
+}
