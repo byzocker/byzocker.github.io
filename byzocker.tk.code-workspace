@@ -5,6 +5,7 @@
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "ByZocker.de"
+		"liveServer.settings.multiRootWorkspaceName": "ByZocker.de",
+		"scm.alwaysShowRepositories": true
 	}
 }
