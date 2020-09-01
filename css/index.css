@@ -28,8 +28,10 @@ body
 .header
 {
     align-items: center;
-    background-color:  #ffffff ;
-    color: #303030;
+    background-color: var(--headerbg);
+    color: Var(--headertxt);
+    padding: 0;
+    margin: 0;
 }
 .navitems
 {
@@ -37,7 +39,7 @@ body
 }
 .navitems .nav-items /* Ganzer Header  */
 {
-    text-align: end;
+    text-align: center;
     margin-left: 1vh;
     padding-left: 1vh;
     left: 1vh;
@@ -45,7 +47,7 @@ body
 }
 .about-text, .ytlink, .tweety, .contact-me
 {
-    text-align: end;
+    text-align: center;
     text-decoration: transparent;
     font-style: initial;
     font-size: 1.5rem;
@@ -53,7 +55,7 @@ body
     padding-left: .25em;
     padding-right: .25em;
     margin: 0;
-    border: 1px 1px 1px 1px white;
+    /*border: 1px 1px 1px 1px white;*/
     /*background-color: #1c254a;
     background-image: linear-gradient(
         var(--gradientcolor1)
@@ -74,9 +76,13 @@ body
     border-bottom-width: 5vh;
     border-color: white;
 }
-.about
+/*.about
 {   
     margin-left: 1rem;
+}*/
+.contact-me
+{
+
 }
 .ytlink
 {
