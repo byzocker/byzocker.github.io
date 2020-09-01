@@ -9,7 +9,7 @@
     --background: white;
     --header: #919191;
     --welcum: white;
-    --footer: #3d392f;
+    --footer: #303035;
     --darkbackground: #303030;
     --text: #ffffff;
     --headerbg: #ffffff;
@@ -19,7 +19,7 @@ body
 {
     /*background-color: black;*/
     /*background-image: url(/backgrounds/test2.jpg);*/
-    background-color: #303030/*var(--darkbackground)*/;
+    background-color: var(--darkbackground);
     background-attachment: fixed;
     background-repeat: no-repeat;
     /*background-color: var(--background);*/
@@ -143,7 +143,7 @@ body
 footer
 {
     /*background: var(footer);*/
-    background: #3d392f);
+    background: var(--footer);
     opacity:  100%;
 }
 .vid-source
