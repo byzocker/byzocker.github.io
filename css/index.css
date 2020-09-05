@@ -169,7 +169,7 @@ footer
 }
 .video
 {
-    opacity: 0;
+    opacity: 100;
     pointer-events: none;
 }
 @keyframes
