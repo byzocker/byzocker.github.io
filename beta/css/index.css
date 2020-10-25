@@ -1,0 +1,15 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text);
+}
+:root{
+    --text: black;
+    --background: white;
+    --footer: #303035;
+    --darkbackground: #303030;
+    --text: #ffffff;
+}
+body
+{
+    
+}
