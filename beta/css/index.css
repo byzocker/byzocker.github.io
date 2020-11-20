@@ -13,11 +13,20 @@ body
     color: var(--text);
     background-color: var(--background);
 }
-.home-nav-item{
+header
+{
+    margin: 0px;
+    padding: 0px;
+}
+.home-nav-items{
     text-decoration: none;
     color: white;
+    margin: 0;
+    padding: 0;
 }
 .header-div-nav-items
 {
     background-color: var(--darkbackground);
+    margin: 0;
+    padding: 0;
 }
