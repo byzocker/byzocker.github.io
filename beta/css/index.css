@@ -18,7 +18,37 @@ header
     margin: 0px;
     padding: 0px;
 }
-.home-nav-items{
+.typeracer-body
+{
+    background-color: var(--darkbackground)
+
+}
+.typeracer-scoreboard
+{
+    left: 100%;
+    right: 100%;
+    top: 100%;
+    bottom: 100%;
+}  
+.typeracer-footer
+{
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+}
+.typeracer-footer:hover, .typeracer-footer:focus, .typeracer-footer:active, .typeracer-footer:visited
+{
+    opacity: 50%;
+    background-color: var(--darkbackground);
+    color: white;
+}
+.typeracer-footer-backtohome
+{
+    color: white;
+    text-decoration: none;
+}
+.home-nav-items
+{
     text-decoration: none;
     color: white;
     margin: 0;
